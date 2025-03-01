@@ -1,0 +1,24 @@
+
+:root {
+  --pale: #FEF9E1;
+  --dark-pale: #E5D0AC;
+  --dark-red: #6D2323;
+  --main-red: #A31D1D;
+  --primary-white: #eee;
+}
+
+.nav {
+  background-color: var(--dark-red);
+  color: var(--primary-white);
+  font-family: 'Figtree', sans-serif;
+  padding: 32px 48px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.nav span {
+  margin-left: 5px;
+}

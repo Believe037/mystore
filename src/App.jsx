@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react"
 import ProductItem from "./components/ProductItem";
+import Nav from "./components/Nav";
+import styles from './css/app.module.css'
 
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
   return (
     <>
     <div>
-      
+      <Nav />
       <ProductItem products={products} isLoading={isLoading} />
     </div>
     </>
