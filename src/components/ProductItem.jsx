@@ -9,7 +9,7 @@ const ProductItem = ({ products, isLoading }) => {
           <div className={styles.productCard} key={product.id}>
             <div className={styles.imageContainer}>
             <img src={product.images[0]} />
-            <hr />
+            <hr className={styles.productDivider} />
             </div>
             <div className={styles.infoContainer}>
               <div>

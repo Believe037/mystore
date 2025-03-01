@@ -41,6 +41,10 @@ p{
   object-fit: contain;
 }
 
+.productDivider {
+  border: 1px dotted #eee;
+}
+
 .infoContainer{
   display: flex;
   justify-content: cetner;
